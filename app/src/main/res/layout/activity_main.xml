@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:paddingTop="20dp">
 
     <TextView
         android:id="@+id/titleText"
@@ -29,8 +30,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:background="#008080"
-        android:padding="8dp">
+        android:padding="8dp"
+        android:background="#008080">
 
         <Button
             android:id="@+id/likeButton"
@@ -39,7 +40,7 @@
             android:layout_height="wrap_content"
             android:text="POLUB"
             android:textColor="#FFFFFF"
-            android:background="#008080" />
+            android:backgroundTint="#008080"/>
 
         <Button
             android:id="@+id/removeButton"
@@ -48,7 +49,7 @@
             android:layout_height="wrap_content"
             android:text="USUŃ"
             android:textColor="#FFFFFF"
-            android:background="#008080" />
+            android:backgroundTint="#008080"/>
 
         <Button
             android:id="@+id/saveButton"
@@ -57,7 +58,7 @@
             android:layout_height="wrap_content"
             android:text="ZAPISZ"
             android:textColor="#FFFFFF"
-            android:background="#008080" />
+            android:backgroundTint="#008080"/>
     </LinearLayout>
 
     <TextView
